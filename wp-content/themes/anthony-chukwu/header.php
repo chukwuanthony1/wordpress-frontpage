@@ -61,7 +61,7 @@ wp_head();
                         'theme_location'  => 'header',
                         'depth'           => 0,
                         'container_class' => '',
-                        'menu_class'      => '',
+                        'menu_class'      => 'header-menu',
                         'container' => 'ul',
                         'walker' => new Custom_Menu_Walker(),
                     ));

@@ -143,10 +143,10 @@ header .mobile-header {
   header .mobile-header .container .nav-menu.open {
     display: block;
   }
-  header .mobile-header .container .nav-menu ul#menu-header-1 {
+  header .mobile-header .container .nav-menu ul.menu-header-1 {
     list-style: none;
   }
-  header .mobile-header .container .nav-menu ul#menu-header-1 > li {
+  header .mobile-header .container .nav-menu ul.menu-header-1 > li {
     height: 52px;
     width: 100%;
     display: flex;
@@ -157,10 +157,10 @@ header .mobile-header {
     flex-wrap: wrap;
     border-bottom: 1px solid rgba(99, 113, 244, 0.4);
   }
-  header .mobile-header .container .nav-menu ul#menu-header-1 > li:last-child {
+  header .mobile-header .container .nav-menu ul.menu-header-1 > li:last-child {
     border-bottom: none;
   }
-  header .mobile-header .container .nav-menu ul#menu-header-1 > li a {
+  header .mobile-header .container .nav-menu ul.menu-header-1 > li a {
     font-family: "Dongle";
     font-style: normal;
     font-weight: 700;
@@ -171,19 +171,19 @@ header .mobile-header {
     cursor: pointer;
     flex-grow: 1;
   }
-  header .mobile-header .container .nav-menu ul#menu-header-1 > li i {
+  header .mobile-header .container .nav-menu ul.menu-header-1 > li i {
     font-size: 12px;
     color: #6371f4;
     cursor: pointer;
   }
-  header .mobile-header .container .nav-menu ul#menu-header-1 > li ul.sub-menu {
+  header .mobile-header .container .nav-menu ul.menu-header-1 > li ul.sub-menu {
     display: none;
     width: 100%;
     list-style: none;
     padding-left: 24px;
     padding-bottom: 18px;
   }
-  header .mobile-header .container .nav-menu ul#menu-header-1 > li ul.sub-menu li a {
+  header .mobile-header .container .nav-menu ul.menu-header-1 > li ul.sub-menu li a {
     font-family: "Dongle";
     font-style: normal;
     font-weight: 700;
@@ -192,10 +192,10 @@ header .mobile-header {
     color: #251f6e;
     text-decoration: none;
   }
-  header .mobile-header .container .nav-menu ul#menu-header-1 > li.open {
+  header .mobile-header .container .nav-menu ul.menu-header-1 > li.open {
     height: auto;
   }
-  header .mobile-header .container .nav-menu ul#menu-header-1 > li.open ul.sub-menu {
+  header .mobile-header .container .nav-menu ul.menu-header-1 > li.open ul.sub-menu {
     display: block;
   }
 }
