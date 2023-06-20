@@ -1,0 +1,210 @@
+header {
+  .desktop-header {
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 80%;
+      margin: 0 auto;
+      padding: 14px 0;
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        img {
+          height: 64px;
+          width: auto;
+        }
+        h1 {
+          font-family: "Dongle";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 60px;
+          line-height: 60px;
+          text-transform: uppercase;
+          color: #000000;
+        }
+      }
+      .nav-menu {
+        display: flex;
+        gap: 30px;
+        ul {
+          list-style: none;
+          display: flex;
+          gap: 34px;
+          li {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            &:first-child {
+              border-bottom: 2px solid #6371f4;
+            }
+            p,
+            a {
+              font-family: "Dongle";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 32px;
+              line-height: 36px;
+              color: #251f6e;
+              text-decoration: none;
+            }
+            i {
+              transform: translateY(-2px);
+              font-size: 12px;
+              color: #6371f4;
+            }
+          }
+        }
+        .login-signup {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          a {
+            width: 72px;
+            height: 36px;
+            background: #6371f4;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Dongle";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 35px;
+            color: #ffffff;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .mobile-header {
+    display: none;
+  }
+  @include media-breakpoint-down(md) {
+    .desktop-header {
+      display: none;
+    }
+    .mobile-header {
+      display: block;
+      padding-bottom: 20px;
+      .container {
+        max-width: calc(100vw - 32px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 14px 0;
+        position: relative;
+        .logo {
+          img {
+            height: 64px;
+            width: auto;
+          }
+        }
+        .login-signup {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          a {
+            width: 56px;
+            height: 26px;
+            background: #6371f4;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Dongle";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 35px;
+            color: #ffffff;
+            text-decoration: none;
+          }
+        }
+        svg {
+          cursor: pointer;
+        }
+        .nav-menu {
+          display: none;
+          &.open {
+            display: block;
+          }
+          position: absolute;
+          left: -16px;
+          top: 112px;
+          height: calc(100vh - 112px);
+          width: 100vw;
+          z-index: 2;
+          background: linear-gradient(104.53deg, #edebf9 2.98%, rgba(255, 255, 255, 0.4) 101.73%);
+          backdrop-filter: blur(8px);
+          border-radius: 0px;
+          padding: 24px 16px;
+          ul#menu-header-1 {
+            list-style: none;
+            & > li {
+              height: 52px;
+              width: 100%;
+              display: flex;
+              padding: 8px 0;
+              position: relative;
+              align-items: center;
+              justify-content: space-between;
+              flex-wrap: wrap;
+              border-bottom: 1px solid rgba(99, 113, 244, 0.4);
+              &:last-child {
+                border-bottom: none;
+              }
+              a {
+                font-family: "Dongle";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 35px;
+                color: #251f6e;
+                text-decoration: none;
+                cursor: pointer;
+                flex-grow: 1;
+              }
+              i {
+                // transform: translateY(-2px);
+                font-size: 12px;
+                color: #6371f4;
+                cursor: pointer;
+              }
+
+              ul.sub-menu {
+                display: none;
+                width: 100%;
+                list-style: none;
+                padding-left: 24px;
+                padding-bottom: 18px;
+                li {
+                  a {
+                    font-family: "Dongle";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #251f6e;
+                    text-decoration: none;
+                  }
+                }
+              }
+              &.open {
+                height: auto;
+                ul.sub-menu {
+                  display: block;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

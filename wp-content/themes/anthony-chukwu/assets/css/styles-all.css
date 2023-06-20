@@ -1,0 +1,527 @@
+header .desktop-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 14px 0;
+}
+header .desktop-header .container .logo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+header .desktop-header .container .logo img {
+  height: 64px;
+  width: auto;
+}
+header .desktop-header .container .logo h1 {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #000000;
+}
+header .desktop-header .container .nav-menu {
+  display: flex;
+  gap: 30px;
+}
+header .desktop-header .container .nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 34px;
+}
+header .desktop-header .container .nav-menu ul li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+header .desktop-header .container .nav-menu ul li:first-child {
+  border-bottom: 2px solid #6371f4;
+}
+header .desktop-header .container .nav-menu ul li p,
+header .desktop-header .container .nav-menu ul li a {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  color: #251f6e;
+  text-decoration: none;
+}
+header .desktop-header .container .nav-menu ul li i {
+  transform: translateY(-2px);
+  font-size: 12px;
+  color: #6371f4;
+}
+header .desktop-header .container .nav-menu .login-signup {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+header .desktop-header .container .nav-menu .login-signup a {
+  width: 72px;
+  height: 36px;
+  background: #6371f4;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+  text-decoration: none;
+}
+header .mobile-header {
+  display: none;
+}
+@media (max-width: 991.98px) {
+  header .desktop-header {
+    display: none;
+  }
+  header .mobile-header {
+    display: block;
+    padding-bottom: 20px;
+  }
+  header .mobile-header .container {
+    max-width: calc(100vw - 32px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 14px 0;
+    position: relative;
+  }
+  header .mobile-header .container .logo img {
+    height: 64px;
+    width: auto;
+  }
+  header .mobile-header .container .login-signup {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  header .mobile-header .container .login-signup a {
+    width: 56px;
+    height: 26px;
+    background: #6371f4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Dongle";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  header .mobile-header .container svg {
+    cursor: pointer;
+  }
+  header .mobile-header .container .nav-menu {
+    display: none;
+    position: absolute;
+    left: -16px;
+    top: 112px;
+    height: calc(100vh - 112px);
+    width: 100vw;
+    z-index: 2;
+    background: linear-gradient(104.53deg, #edebf9 2.98%, rgba(255, 255, 255, 0.4) 101.73%);
+    -webkit-backdrop-filter: blur(8px);
+            backdrop-filter: blur(8px);
+    border-radius: 0px;
+    padding: 24px 16px;
+  }
+  header .mobile-header .container .nav-menu.open {
+    display: block;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 {
+    list-style: none;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li {
+    height: 52px;
+    width: 100%;
+    display: flex;
+    padding: 8px 0;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(99, 113, 244, 0.4);
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li:last-child {
+    border-bottom: none;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li a {
+    font-family: "Dongle";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #251f6e;
+    text-decoration: none;
+    cursor: pointer;
+    flex-grow: 1;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li i {
+    font-size: 12px;
+    color: #6371f4;
+    cursor: pointer;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li ul.sub-menu {
+    display: none;
+    width: 100%;
+    list-style: none;
+    padding-left: 24px;
+    padding-bottom: 18px;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li ul.sub-menu li a {
+    font-family: "Dongle";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #251f6e;
+    text-decoration: none;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li.open {
+    height: auto;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li.open ul.sub-menu {
+    display: block;
+  }
+}
+
+main.frontpage {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 72px;
+}
+@media (max-width: 991.98px) {
+  main.frontpage {
+    max-width: calc(100vw - 32px);
+  }
+}
+main.frontpage .jumbotron {
+  display: flex;
+  align-items: center;
+}
+main.frontpage .jumbotron .text-section {
+  width: 360px;
+  flex-shrink: 0;
+}
+main.frontpage .jumbotron .text-section h4 {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 80%;
+  color: #251f6e;
+}
+main.frontpage .jumbotron .text-section p {
+  margin-top: 16px;
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #848484;
+}
+main.frontpage .jumbotron .text-section ul {
+  margin-top: 16px;
+  list-style: none;
+}
+main.frontpage .jumbotron .text-section ul li {
+  padding-left: 26px;
+  position: relative;
+  font-family: "Dongle";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  color: #797979;
+}
+main.frontpage .jumbotron .text-section ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTUiIHZpZXdCb3g9IjAgMCAxNiAxNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGVsbGlwc2UgY3g9IjcuOTIxNDYiIGN5PSI3LjUiIHJ4PSI3LjQyMTQ2IiByeT0iNy41IiBmaWxsPSIjNjM3MUY0Ii8+Cjwvc3ZnPg==");
+}
+main.frontpage .jumbotron img {
+  width: 100%;
+  height: auto;
+  transform: translateX(-48px) translateY(70px) scale(1.1);
+}
+@media (max-width: 991.98px) {
+  main.frontpage .jumbotron {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  main.frontpage .jumbotron .text-section {
+    width: 100%;
+  }
+  main.frontpage .jumbotron .jumbotron-image {
+    margin: 0 -16px;
+    overflow: hidden;
+    padding: 28px 0;
+  }
+  main.frontpage .jumbotron .jumbotron-image img {
+    transform: scale(1.4);
+  }
+}
+main.frontpage .tools {
+  margin-top: 82px;
+}
+@media (max-width: 991.98px) {
+  main.frontpage .tools {
+    margin-top: 120px;
+  }
+}
+main.frontpage .tools .title {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+main.frontpage .tools .title h4 {
+  font-family: Dongle;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 80%;
+  color: #251f6e;
+  max-width: 72%;
+  margin: 0 auto;
+}
+@media (max-width: 991.98px) {
+  main.frontpage .tools .title h4 {
+    font-weight: 700;
+    font-size: 42px;
+  }
+}
+main.frontpage .tools .title p {
+  margin-top: 32px;
+  font-family: "Dongle";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #848484;
+}
+@media (max-width: 991.98px) {
+  main.frontpage .tools .title {
+    max-width: 100%;
+    text-align: start;
+  }
+  main.frontpage .tools .title h4 {
+    max-width: none;
+  }
+}
+main.frontpage .tools .grid {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 991.98px) {
+  main.frontpage .tools .grid {
+    justify-content: flex-start;
+    overflow-x: auto;
+    margin: 0 -16px;
+    padding: 0 16px;
+  }
+}
+main.frontpage .tools .grid .grid-item {
+  width: 312px;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  flex-shrink: 0;
+}
+main.frontpage .tools .grid .grid-item.active {
+  border: 4px solid #6371f4;
+  border-radius: 24px;
+}
+main.frontpage .tools .grid .grid-item img {
+  height: 172px;
+}
+main.frontpage .tools .grid .grid-item h6 {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 60.8%;
+  color: #251f6e;
+  text-align: center;
+}
+main.frontpage .tools .grid .grid-item p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #474747;
+}
+
+footer {
+  background: #000000;
+}
+footer .container {
+  padding: 48px 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+@media (max-width: 991.98px) {
+  footer .container {
+    padding: 24px 16px;
+    width: 100%;
+    gap: 24px;
+  }
+}
+footer .container .footer-menu-grid {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-menu-grid {
+    order: 1;
+  }
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-menu-grid {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  footer .container .footer-menu-grid .footer-menu {
+    width: 100%;
+  }
+}
+footer .container .footer-menu-grid .footer-menu .menu-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-menu-grid .footer-menu .menu-title {
+    margin-bottom: 12px;
+    cursor: pointer;
+  }
+}
+footer .container .footer-menu-grid .footer-menu .menu-title h4 {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 102.2%;
+  color: #8a94f7;
+}
+footer .container .footer-menu-grid .footer-menu .menu-title i {
+  color: #6371f4;
+  transform: translateY(-4px);
+  display: none;
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-menu-grid .footer-menu .menu-title i {
+    display: inline;
+  }
+}
+footer .container .footer-menu-grid .footer-menu ul.footer-menu-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  list-style: none;
+}
+footer .container .footer-menu-grid .footer-menu ul.footer-menu-menu li p,
+footer .container .footer-menu-grid .footer-menu ul.footer-menu-menu li a {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 102.2%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-menu-grid .footer-menu ul.footer-menu-menu {
+    display: none;
+    padding-left: 24px;
+    padding-bottom: 24px;
+  }
+  footer .container .footer-menu-grid .footer-menu ul.footer-menu-menu.open {
+    display: block;
+  }
+}
+footer .container .footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  color: #8a94f7;
+  font-size: 24px;
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-social {
+    order: 3;
+  }
+}
+footer .container .risk {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+@media (max-width: 991.98px) {
+  footer .container .risk {
+    order: 2;
+  }
+}
+footer .container .footer-extra-menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-extra-menu {
+    order: 4;
+  }
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-extra-menu {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+footer .container .footer-extra-menu a {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 102.2%;
+  /* identical to box height, or 25px */
+  text-transform: capitalize;
+  color: #8a94f7;
+}
+/*# sourceMappingURL=styles-all.css.map */

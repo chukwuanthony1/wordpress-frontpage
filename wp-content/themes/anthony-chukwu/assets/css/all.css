@@ -1,0 +1,528 @@
+{"version":3,"sources":["_header.scss","styles-all.css","_breakpoints.scss","_frontpage.scss","_footer.scss"],"names":[],"mappings":"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","file":"styles-all.css","sourcesContent":["header {\n  .desktop-header {\n    .container {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      width: 80%;\n      margin: 0 auto;\n      padding: 14px 0;\n      .logo {\n        display: flex;\n        align-items: center;\n        gap: 24px;\n        img {\n          height: 64px;\n          width: auto;\n        }\n        h1 {\n          font-family: \"Dongle\";\n          font-style: normal;\n          font-weight: 700;\n          font-size: 60px;\n          line-height: 60px;\n          text-transform: uppercase;\n          color: #000000;\n        }\n      }\n      .nav-menu {\n        display: flex;\n        gap: 30px;\n        ul {\n          list-style: none;\n          display: flex;\n          gap: 34px;\n          li {\n            height: 100%;\n            display: flex;\n            align-items: center;\n            gap: 12px;\n            &:first-child {\n              border-bottom: 2px solid #6371f4;\n            }\n            p,\n            a {\n              font-family: \"Dongle\";\n              font-style: normal;\n              font-weight: 400;\n              font-size: 32px;\n              line-height: 36px;\n              color: #251f6e;\n              text-decoration: none;\n            }\n            i {\n              transform: translateY(-2px);\n              font-size: 12px;\n              color: #6371f4;\n            }\n          }\n        }\n        .login-signup {\n          display: flex;\n          align-items: center;\n          gap: 16px;\n          a {\n            width: 72px;\n            height: 36px;\n            background: #6371f4;\n            border-radius: 8px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            font-family: \"Dongle\";\n            font-style: normal;\n            font-weight: 400;\n            font-size: 24px;\n            line-height: 35px;\n            color: #ffffff;\n            text-decoration: none;\n          }\n        }\n      }\n    }\n  }\n  .mobile-header {\n    display: none;\n  }\n  @include media-breakpoint-down(md) {\n    .desktop-header {\n      display: none;\n    }\n    .mobile-header {\n      display: block;\n      padding-bottom: 20px;\n      .container {\n        max-width: calc(100vw - 32px);\n        display: flex;\n        align-items: center;\n        justify-content: space-between;\n        margin: 0 auto;\n        padding: 14px 0;\n        position: relative;\n        .logo {\n          img {\n            height: 64px;\n            width: auto;\n          }\n        }\n        .login-signup {\n          display: flex;\n          align-items: center;\n          gap: 12px;\n          a {\n            width: 56px;\n            height: 26px;\n            background: #6371f4;\n            border-radius: 8px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            font-family: \"Dongle\";\n            font-style: normal;\n            font-weight: 400;\n            font-size: 18px;\n            line-height: 35px;\n            color: #ffffff;\n            text-decoration: none;\n          }\n        }\n        svg {\n          cursor: pointer;\n        }\n        .nav-menu {\n          display: none;\n          &.open {\n            display: block;\n          }\n          position: absolute;\n          left: -16px;\n          top: 112px;\n          height: calc(100vh - 112px);\n          width: 100vw;\n          z-index: 2;\n          background: linear-gradient(104.53deg, #edebf9 2.98%, rgba(255, 255, 255, 0.4) 101.73%);\n          backdrop-filter: blur(8px);\n          border-radius: 0px;\n          padding: 24px 16px;\n          ul#menu-header-1 {\n            list-style: none;\n            & > li {\n              height: 52px;\n              width: 100%;\n              display: flex;\n              padding: 8px 0;\n              position: relative;\n              align-items: center;\n              justify-content: space-between;\n              flex-wrap: wrap;\n              border-bottom: 1px solid rgba(99, 113, 244, 0.4);\n              &:last-child {\n                border-bottom: none;\n              }\n              a {\n                font-family: \"Dongle\";\n                font-style: normal;\n                font-weight: 700;\n                font-size: 24px;\n                line-height: 35px;\n                color: #251f6e;\n                text-decoration: none;\n                cursor: pointer;\n                flex-grow: 1;\n              }\n              i {\n                // transform: translateY(-2px);\n                font-size: 12px;\n                color: #6371f4;\n                cursor: pointer;\n              }\n\n              ul.sub-menu {\n                display: none;\n                width: 100%;\n                list-style: none;\n                padding-left: 24px;\n                padding-bottom: 18px;\n                li {\n                  a {\n                    font-family: \"Dongle\";\n                    font-style: normal;\n                    font-weight: 700;\n                    font-size: 18px;\n                    line-height: 26px;\n                    color: #251f6e;\n                    text-decoration: none;\n                  }\n                }\n              }\n              &.open {\n                height: auto;\n                ul.sub-menu {\n                  display: block;\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n","header .desktop-header .container {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 80%;\n  margin: 0 auto;\n  padding: 14px 0;\n}\nheader .desktop-header .container .logo {\n  display: flex;\n  align-items: center;\n  gap: 24px;\n}\nheader .desktop-header .container .logo img {\n  height: 64px;\n  width: auto;\n}\nheader .desktop-header .container .logo h1 {\n  font-family: \"Dongle\";\n  font-style: normal;\n  font-weight: 700;\n  font-size: 60px;\n  line-height: 60px;\n  text-transform: uppercase;\n  color: #000000;\n}\nheader .desktop-header .container .nav-menu {\n  display: flex;\n  gap: 30px;\n}\nheader .desktop-header .container .nav-menu ul {\n  list-style: none;\n  display: flex;\n  gap: 34px;\n}\nheader .desktop-header .container .nav-menu ul li {\n  height: 100%;\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\nheader .desktop-header .container .nav-menu ul li:first-child {\n  border-bottom: 2px solid #6371f4;\n}\nheader .desktop-header .container .nav-menu ul li p,\nheader .desktop-header .container .nav-menu ul li a {\n  font-family: \"Dongle\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 32px;\n  line-height: 36px;\n  color: #251f6e;\n  text-decoration: none;\n}\nheader .desktop-header .container .nav-menu ul li i {\n  transform: translateY(-2px);\n  font-size: 12px;\n  color: #6371f4;\n}\nheader .desktop-header .container .nav-menu .login-signup {\n  display: flex;\n  align-items: center;\n  gap: 16px;\n}\nheader .desktop-header .container .nav-menu .login-signup a {\n  width: 72px;\n  height: 36px;\n  background: #6371f4;\n  border-radius: 8px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-family: \"Dongle\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 24px;\n  line-height: 35px;\n  color: #ffffff;\n  text-decoration: none;\n}\nheader .mobile-header {\n  display: none;\n}\n@media (max-width: 991.98px) {\n  header .desktop-header {\n    display: none;\n  }\n  header .mobile-header {\n    display: block;\n    padding-bottom: 20px;\n  }\n  header .mobile-header .container {\n    max-width: calc(100vw - 32px);\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    margin: 0 auto;\n    padding: 14px 0;\n    position: relative;\n  }\n  header .mobile-header .container .logo img {\n    height: 64px;\n    width: auto;\n  }\n  header .mobile-header .container .login-signup {\n    display: flex;\n    align-items: center;\n    gap: 12px;\n  }\n  header .mobile-header .container .login-signup a {\n    width: 56px;\n    height: 26px;\n    background: #6371f4;\n    border-radius: 8px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-family: \"Dongle\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 18px;\n    line-height: 35px;\n    color: #ffffff;\n    text-decoration: none;\n  }\n  header .mobile-header .container svg {\n    cursor: pointer;\n  }\n  header .mobile-header .container .nav-menu {\n    display: none;\n    position: absolute;\n    left: -16px;\n    top: 112px;\n    height: calc(100vh - 112px);\n    width: 100vw;\n    z-index: 2;\n    background: linear-gradient(104.53deg, #edebf9 2.98%, rgba(255, 255, 255, 0.4) 101.73%);\n    backdrop-filter: blur(8px);\n    border-radius: 0px;\n    padding: 24px 16px;\n  }\n  header .mobile-header .container .nav-menu.open {\n    display: block;\n  }\n  header .mobile-header .container .nav-menu ul#menu-header-1 {\n    list-style: none;\n  }\n  header .mobile-header .container .nav-menu ul#menu-header-1 > li {\n    height: 52px;\n    width: 100%;\n    display: flex;\n    padding: 8px 0;\n    position: relative;\n    align-items: center;\n    justify-content: space-between;\n    flex-wrap: wrap;\n    border-bottom: 1px solid rgba(99, 113, 244, 0.4);\n  }\n  header .mobile-header .container .nav-menu ul#menu-header-1 > li:last-child {\n    border-bottom: none;\n  }\n  header .mobile-header .container .nav-menu ul#menu-header-1 > li a {\n    font-family: \"Dongle\";\n    font-style: normal;\n    font-weight: 700;\n    font-size: 24px;\n    line-height: 35px;\n    color: #251f6e;\n    text-decoration: none;\n    cursor: pointer;\n    flex-grow: 1;\n  }\n  header .mobile-header .container .nav-menu ul#menu-header-1 > li i {\n    font-size: 12px;\n    color: #6371f4;\n    cursor: pointer;\n  }\n  header .mobile-header .container .nav-menu ul#menu-header-1 > li ul.sub-menu {\n    display: none;\n    width: 100%;\n    list-style: none;\n    padding-left: 24px;\n    padding-bottom: 18px;\n  }\n  header .mobile-header .container .nav-menu ul#menu-header-1 > li ul.sub-menu li a {\n    font-family: \"Dongle\";\n    font-style: normal;\n    font-weight: 700;\n    font-size: 18px;\n    line-height: 26px;\n    color: #251f6e;\n    text-decoration: none;\n  }\n  header .mobile-header .container .nav-menu ul#menu-header-1 > li.open {\n    height: auto;\n  }\n  header .mobile-header .container .nav-menu ul#menu-header-1 > li.open ul.sub-menu {\n    display: block;\n  }\n}\n\nmain.frontpage {\n  max-width: 80%;\n  margin: 0 auto;\n  padding-bottom: 72px;\n}\n@media (max-width: 991.98px) {\n  main.frontpage {\n    max-width: calc(100vw - 32px);\n  }\n}\nmain.frontpage .jumbotron {\n  display: flex;\n  align-items: center;\n}\nmain.frontpage .jumbotron .text-section {\n  width: 360px;\n  flex-shrink: 0;\n}\nmain.frontpage .jumbotron .text-section h4 {\n  font-family: \"Dongle\";\n  font-style: normal;\n  font-weight: 700;\n  font-size: 42px;\n  line-height: 80%;\n  color: #251f6e;\n}\nmain.frontpage .jumbotron .text-section p {\n  margin-top: 16px;\n  font-family: \"Dongle\";\n  font-style: normal;\n  font-weight: 700;\n  font-size: 24px;\n  line-height: 28px;\n  color: #848484;\n}\nmain.frontpage .jumbotron .text-section ul {\n  margin-top: 16px;\n  list-style: none;\n}\nmain.frontpage .jumbotron .text-section ul li {\n  padding-left: 26px;\n  position: relative;\n  font-family: \"Dongle\";\n  font-style: normal;\n  font-size: 24px;\n  line-height: 24px;\n  margin-bottom: 8px;\n  color: #797979;\n}\nmain.frontpage .jumbotron .text-section ul li::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: 2px;\n  width: 16px;\n  height: 16px;\n  background-repeat: no-repeat;\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTUiIHZpZXdCb3g9IjAgMCAxNiAxNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGVsbGlwc2UgY3g9IjcuOTIxNDYiIGN5PSI3LjUiIHJ4PSI3LjQyMTQ2IiByeT0iNy41IiBmaWxsPSIjNjM3MUY0Ii8+Cjwvc3ZnPg==\");\n}\nmain.frontpage .jumbotron img {\n  width: 100%;\n  height: auto;\n  transform: translateX(-48px) translateY(70px) scale(1.1);\n}\n@media (max-width: 991.98px) {\n  main.frontpage .jumbotron {\n    flex-direction: column;\n    align-items: stretch;\n  }\n  main.frontpage .jumbotron .text-section {\n    width: 100%;\n  }\n  main.frontpage .jumbotron .jumbotron-image {\n    margin: 0 -16px;\n    overflow: hidden;\n    padding: 28px 0;\n  }\n  main.frontpage .jumbotron .jumbotron-image img {\n    transform: scale(1.4);\n  }\n}\nmain.frontpage .tools {\n  margin-top: 82px;\n}\n@media (max-width: 991.98px) {\n  main.frontpage .tools {\n    margin-top: 120px;\n  }\n}\nmain.frontpage .tools .title {\n  text-align: center;\n  max-width: 600px;\n  margin: 0 auto;\n}\nmain.frontpage .tools .title h4 {\n  font-family: Dongle;\n  font-style: normal;\n  font-weight: 700;\n  font-size: 62px;\n  line-height: 80%;\n  color: #251f6e;\n  max-width: 72%;\n  margin: 0 auto;\n}\n@media (max-width: 991.98px) {\n  main.frontpage .tools .title h4 {\n    font-weight: 700;\n    font-size: 42px;\n  }\n}\nmain.frontpage .tools .title p {\n  margin-top: 32px;\n  font-family: \"Dongle\";\n  font-style: normal;\n  font-size: 24px;\n  line-height: 24px;\n  color: #848484;\n}\n@media (max-width: 991.98px) {\n  main.frontpage .tools .title {\n    max-width: 100%;\n    text-align: start;\n  }\n  main.frontpage .tools .title h4 {\n    max-width: none;\n  }\n}\nmain.frontpage .tools .grid {\n  margin-top: 48px;\n  display: flex;\n  justify-content: space-around;\n}\n@media (max-width: 991.98px) {\n  main.frontpage .tools .grid {\n    justify-content: flex-start;\n    overflow-x: auto;\n    margin: 0 -16px;\n    padding: 0 16px;\n  }\n}\nmain.frontpage .tools .grid .grid-item {\n  width: 312px;\n  padding: 40px 20px;\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  gap: 24px;\n  flex-shrink: 0;\n}\nmain.frontpage .tools .grid .grid-item.active {\n  border: 4px solid #6371f4;\n  border-radius: 24px;\n}\nmain.frontpage .tools .grid .grid-item img {\n  height: 172px;\n}\nmain.frontpage .tools .grid .grid-item h6 {\n  font-family: \"Dongle\";\n  font-style: normal;\n  font-weight: 700;\n  font-size: 32px;\n  line-height: 60.8%;\n  color: #251f6e;\n  text-align: center;\n}\nmain.frontpage .tools .grid .grid-item p {\n  font-family: \"Inter\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 16px;\n  line-height: 19px;\n  text-align: center;\n  color: #474747;\n}\n\nfooter {\n  background: #000000;\n}\nfooter .container {\n  padding: 48px 0;\n  width: 80%;\n  margin: 0 auto;\n  display: flex;\n  flex-direction: column;\n  gap: 48px;\n}\n@media (max-width: 991.98px) {\n  footer .container {\n    padding: 24px 16px;\n    width: 100%;\n    gap: 24px;\n  }\n}\nfooter .container .footer-menu-grid {\n  display: flex;\n  justify-content: space-between;\n}\n@media (max-width: 991.98px) {\n  footer .container .footer-menu-grid {\n    order: 1;\n  }\n}\n@media (max-width: 991.98px) {\n  footer .container .footer-menu-grid {\n    flex-direction: column;\n    justify-content: flex-start;\n    gap: 4px;\n  }\n  footer .container .footer-menu-grid .footer-menu {\n    width: 100%;\n  }\n}\nfooter .container .footer-menu-grid .footer-menu .menu-title {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-bottom: 24px;\n}\n@media (max-width: 991.98px) {\n  footer .container .footer-menu-grid .footer-menu .menu-title {\n    margin-bottom: 12px;\n    cursor: pointer;\n  }\n}\nfooter .container .footer-menu-grid .footer-menu .menu-title h4 {\n  font-family: \"Dongle\";\n  font-style: normal;\n  font-weight: 700;\n  font-size: 32px;\n  line-height: 102.2%;\n  color: #8a94f7;\n}\nfooter .container .footer-menu-grid .footer-menu .menu-title i {\n  color: #6371f4;\n  transform: translateY(-4px);\n  display: none;\n}\n@media (max-width: 991.98px) {\n  footer .container .footer-menu-grid .footer-menu .menu-title i {\n    display: inline;\n  }\n}\nfooter .container .footer-menu-grid .footer-menu ul.footer-menu-menu {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  list-style: none;\n}\nfooter .container .footer-menu-grid .footer-menu ul.footer-menu-menu li p,\nfooter .container .footer-menu-grid .footer-menu ul.footer-menu-menu li a {\n  font-family: \"Dongle\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 20px;\n  line-height: 102.2%;\n  text-align: center;\n  text-transform: capitalize;\n  color: #ffffff;\n  text-decoration: none;\n}\n@media (max-width: 991.98px) {\n  footer .container .footer-menu-grid .footer-menu ul.footer-menu-menu {\n    display: none;\n    padding-left: 24px;\n    padding-bottom: 24px;\n  }\n  footer .container .footer-menu-grid .footer-menu ul.footer-menu-menu.open {\n    display: block;\n  }\n}\nfooter .container .footer-social {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 24px;\n  color: #8a94f7;\n  font-size: 24px;\n}\n@media (max-width: 991.98px) {\n  footer .container .footer-social {\n    order: 3;\n  }\n}\nfooter .container .risk {\n  font-family: \"Dongle\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 18px;\n  line-height: 24px;\n  text-transform: capitalize;\n  color: #ffffff;\n}\n@media (max-width: 991.98px) {\n  footer .container .risk {\n    order: 2;\n  }\n}\nfooter .container .footer-extra-menu {\n  display: flex;\n  align-items: center;\n  gap: 24px;\n  justify-content: center;\n}\n@media (max-width: 991.98px) {\n  footer .container .footer-extra-menu {\n    order: 4;\n  }\n}\n@media (max-width: 991.98px) {\n  footer .container .footer-extra-menu {\n    flex-direction: column;\n    gap: 12px;\n  }\n}\nfooter .container .footer-extra-menu a {\n  font-family: \"Dongle\";\n  font-style: normal;\n  font-weight: 700;\n  font-size: 24px;\n  line-height: 102.2%;\n  /* identical to box height, or 25px */\n  text-transform: capitalize;\n  color: #8a94f7;\n}","$grid-breakpoints: (\n  xs: 0,\n  sm: 576px,\n  md: 768px,\n  lg: 992px,\n  xl: 1200px,\n) !default;\n// Breakpoint viewport sizes and media queries.\n//\n// Breakpoints are defined as a map of (name: minimum width), order from small to large:\n//\n//    (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)\n//\n// The map defined in the `$grid-breakpoints` global variable is used as the `$breakpoints` argument by default.\n\n// Name of the next breakpoint, or null for the last breakpoint.\n//\n//    >> breakpoint-next(sm)\n//    md\n//    >> breakpoint-next(sm, (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px))\n//    md\n//    >> breakpoint-next(sm, $breakpoint-names: (xs sm md lg xl))\n//    md\n@function breakpoint-next($name, $breakpoints: $grid-breakpoints, $breakpoint-names: map-keys($breakpoints)) {\n  $n: index($breakpoint-names, $name);\n  @return if($n != null and $n < length($breakpoint-names), nth($breakpoint-names, $n + 1), null);\n}\n\n// Minimum breakpoint width. Null for the smallest (first) breakpoint.\n//\n//    >> breakpoint-min(sm, (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px))\n//    576px\n@function breakpoint-min($name, $breakpoints: $grid-breakpoints) {\n  $min: map-get($breakpoints, $name);\n  @return if($min != 0, $min, null);\n}\n\n// Maximum breakpoint width. Null for the largest (last) breakpoint.\n// The maximum value is calculated as the minimum of the next one less 0.02px\n// to work around the limitations of `min-` and `max-` prefixes and viewports with fractional widths.\n// See https://www.w3.org/TR/mediaqueries-4/#mq-min-max\n// Uses 0.02px rather than 0.01px to work around a current rounding bug in Safari.\n// See https://bugs.webkit.org/show_bug.cgi?id=178261\n//\n//    >> breakpoint-max(sm, (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px))\n//    767.98px\n@function breakpoint-max($name, $breakpoints: $grid-breakpoints) {\n  $next: breakpoint-next($name, $breakpoints);\n  @return if($next, breakpoint-min($next, $breakpoints) - 0.02, null);\n}\n\n// Returns a blank string if smallest breakpoint, otherwise returns the name with a dash in front.\n// Useful for making responsive utilities.\n//\n//    >> breakpoint-infix(xs, (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px))\n//    \"\"  (Returns a blank string)\n//    >> breakpoint-infix(sm, (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px))\n//    \"-sm\"\n@function breakpoint-infix($name, $breakpoints: $grid-breakpoints) {\n  @return if(breakpoint-min($name, $breakpoints) == null, \"\", \"-#{$name}\");\n}\n\n// Media of at least the minimum breakpoint width. No query for the smallest breakpoint.\n// Makes the @content apply to the given breakpoint and wider.\n@mixin media-breakpoint-up($name, $breakpoints: $grid-breakpoints) {\n  $min: breakpoint-min($name, $breakpoints);\n  @if $min {\n    @media (min-width: $min) {\n      @content;\n    }\n  } @else {\n    @content;\n  }\n}\n\n// Media of at most the maximum breakpoint width. No query for the largest breakpoint.\n// Makes the @content apply to the given breakpoint and narrower.\n@mixin media-breakpoint-down($name, $breakpoints: $grid-breakpoints) {\n  $max: breakpoint-max($name, $breakpoints);\n  @if $max {\n    @media (max-width: $max) {\n      @content;\n    }\n  } @else {\n    @content;\n  }\n}\n\n// Media that spans multiple breakpoint widths.\n// Makes the @content apply between the min and max breakpoints\n@mixin media-breakpoint-between($lower, $upper, $breakpoints: $grid-breakpoints) {\n  $min: breakpoint-min($lower, $breakpoints);\n  $max: breakpoint-max($upper, $breakpoints);\n\n  @if $min != null and $max != null {\n    @media (min-width: $min) and (max-width: $max) {\n      @content;\n    }\n  } @else if $max == null {\n    @include media-breakpoint-up($lower, $breakpoints) {\n      @content;\n    }\n  } @else if $min == null {\n    @include media-breakpoint-down($upper, $breakpoints) {\n      @content;\n    }\n  }\n}\n\n// Media between the breakpoint's minimum and maximum widths.\n// No minimum for the smallest breakpoint, and no maximum for the largest one.\n// Makes the @content apply only to the given breakpoint, not viewports any wider or narrower.\n@mixin media-breakpoint-only($name, $breakpoints: $grid-breakpoints) {\n  $min: breakpoint-min($name, $breakpoints);\n  $max: breakpoint-max($name, $breakpoints);\n\n  @if $min != null and $max != null {\n    @media (min-width: $min) and (max-width: $max) {\n      @content;\n    }\n  } @else if $max == null {\n    @include media-breakpoint-up($name, $breakpoints) {\n      @content;\n    }\n  } @else if $min == null {\n    @include media-breakpoint-down($name, $breakpoints) {\n      @content;\n    }\n  }\n}\n","main.frontpage {\n  max-width: 80%;\n  margin: 0 auto;\n  padding-bottom: 72px;\n  @include media-breakpoint-down(md) {\n    max-width: calc(100vw - 32px);\n  }\n  .jumbotron {\n    display: flex;\n    align-items: center;\n    .text-section {\n      width: 360px;\n      flex-shrink: 0;\n      h4 {\n        font-family: \"Dongle\";\n        font-style: normal;\n        font-weight: 700;\n        font-size: 42px;\n        line-height: 80%;\n        color: #251f6e;\n      }\n      p {\n        margin-top: 16px;\n        font-family: \"Dongle\";\n        font-style: normal;\n        font-weight: 700;\n        font-size: 24px;\n        line-height: 28px;\n        color: #848484;\n      }\n      ul {\n        margin-top: 16px;\n        list-style: none;\n        li {\n          padding-left: 26px;\n          position: relative;\n          font-family: \"Dongle\";\n          font-style: normal;\n          font-size: 24px;\n          line-height: 24px;\n          margin-bottom: 8px;\n          color: #797979;\n          &::before {\n            content: \"\";\n            position: absolute;\n            left: 0;\n            top: 2px;\n            width: 16px;\n            height: 16px;\n            background-repeat: no-repeat;\n            background-image: url(\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTUiIHZpZXdCb3g9IjAgMCAxNiAxNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGVsbGlwc2UgY3g9IjcuOTIxNDYiIGN5PSI3LjUiIHJ4PSI3LjQyMTQ2IiByeT0iNy41IiBmaWxsPSIjNjM3MUY0Ii8+Cjwvc3ZnPg==\");\n          }\n        }\n      }\n    }\n    img {\n      width: 100%;\n      height: auto;\n      transform: translateX(-48px) translateY(70px) scale(1.1);\n    }\n    @include media-breakpoint-down(md) {\n      flex-direction: column;\n      align-items: stretch;\n      .text-section {\n        width: 100%;\n      }\n      .jumbotron-image {\n        margin: 0 -16px;\n        overflow: hidden;\n        padding: 28px 0;\n        img {\n          transform: scale(1.4);\n        }\n      }\n    }\n  }\n  .tools {\n    margin-top: 82px;\n    @include media-breakpoint-down(md) {\n      margin-top: 120px;\n    }\n    .title {\n      text-align: center;\n      max-width: 600px;\n      margin: 0 auto;\n      h4 {\n        font-family: Dongle;\n        font-style: normal;\n        font-weight: 700;\n        font-size: 62px;\n        line-height: 80%;\n        color: #251f6e;\n        max-width: 72%;\n        margin: 0 auto;\n        @include media-breakpoint-down(md) {\n          font-weight: 700;\n          font-size: 42px;\n        }\n      }\n      p {\n        margin-top: 32px;\n        font-family: \"Dongle\";\n        font-style: normal;\n        font-size: 24px;\n        line-height: 24px;\n        color: #848484;\n      }\n      @include media-breakpoint-down(md) {\n        max-width: 100%;\n        text-align: start;\n        h4 {\n          max-width: none;\n        }\n      }\n    }\n    .grid {\n      margin-top: 48px;\n      @include media-breakpoint-down(md) {\n        justify-content: flex-start;\n        overflow-x: auto;\n        margin: 0 -16px;\n        padding: 0 16px;\n      }\n      display: flex;\n      justify-content: space-around;\n      .grid-item {\n        width: 312px;\n        padding: 40px 20px;\n        display: flex;\n        align-items: center;\n        flex-direction: column;\n        gap: 24px;\n        flex-shrink: 0;\n        &.active {\n          border: 4px solid #6371f4;\n          border-radius: 24px;\n        }\n        img {\n          height: 172px;\n        }\n        h6 {\n          font-family: \"Dongle\";\n          font-style: normal;\n          font-weight: 700;\n          font-size: 32px;\n          line-height: 60.8%;\n          color: #251f6e;\n          text-align: center;\n        }\n        p {\n          font-family: \"Inter\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 16px;\n          line-height: 19px;\n          text-align: center;\n          color: #474747;\n        }\n      }\n    }\n  }\n}\n","footer {\n  background: #000000;\n  .container {\n    padding: 48px 0;\n    width: 80%;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column;\n    gap: 48px;\n    @include media-breakpoint-down(md) {\n      padding: 24px 16px;\n      width: 100%;\n      gap: 24px;\n    }\n    .footer-menu-grid {\n      @include media-breakpoint-down(md) {\n        order: 1;\n      }\n      display: flex;\n      justify-content: space-between;\n      @include media-breakpoint-down(md) {\n        flex-direction: column;\n        justify-content: flex-start;\n        gap: 4px;\n        .footer-menu {\n          width: 100%;\n        }\n      }\n      .footer-menu {\n        .menu-title {\n          display: flex;\n          align-items: center;\n          justify-content: space-between;\n          margin-bottom: 24px;\n          @include media-breakpoint-down(md) {\n            margin-bottom: 12px;\n            cursor: pointer;\n          }\n          h4 {\n            font-family: \"Dongle\";\n            font-style: normal;\n            font-weight: 700;\n            font-size: 32px;\n            line-height: 102.2%;\n            color: #8a94f7;\n          }\n          i {\n            color: #6371f4;\n            transform: translateY(-4px);\n            display: none;\n            @include media-breakpoint-down(md) {\n              display: inline;\n            }\n          }\n        }\n\n        ul.footer-menu-menu {\n          display: flex;\n          flex-direction: column;\n          gap: 6px;\n          list-style: none;\n          li {\n            p,\n            a {\n              font-family: \"Dongle\";\n              font-style: normal;\n              font-weight: 400;\n              font-size: 20px;\n              line-height: 102.2%;\n              text-align: center;\n              text-transform: capitalize;\n              color: #ffffff;\n              text-decoration: none;\n            }\n          }\n          @include media-breakpoint-down(md) {\n            display: none;\n            padding-left: 24px;\n            padding-bottom: 24px;\n            &.open {\n              display: block;\n            }\n          }\n        }\n      }\n    }\n    .footer-social {\n      @include media-breakpoint-down(md) {\n        order: 3;\n      }\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      gap: 24px;\n      color: #8a94f7;\n      font-size: 24px;\n    }\n    .risk {\n      @include media-breakpoint-down(md) {\n        order: 2;\n      }\n      font-family: \"Dongle\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 18px;\n      line-height: 24px;\n      text-transform: capitalize;\n      color: #ffffff;\n    }\n    .footer-extra-menu {\n      @include media-breakpoint-down(md) {\n        order: 4;\n      }\n      display: flex;\n      align-items: center;\n      gap: 24px;\n      justify-content: center;\n      @include media-breakpoint-down(md) {\n        flex-direction: column;\n        gap: 12px;\n      }\n      a {\n        font-family: \"Dongle\";\n        font-style: normal;\n        font-weight: 700;\n        font-size: 24px;\n        line-height: 102.2%;\n        /* identical to box height, or 25px */\n\n        text-transform: capitalize;\n\n        color: #8a94f7;\n      }\n    }\n  }\n}\n"]}
+header .desktop-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 14px 0;
+}
+header .desktop-header .container .logo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+header .desktop-header .container .logo img {
+  height: 64px;
+  width: auto;
+}
+header .desktop-header .container .logo h1 {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #000000;
+}
+header .desktop-header .container .nav-menu {
+  display: flex;
+  gap: 30px;
+}
+header .desktop-header .container .nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 34px;
+}
+header .desktop-header .container .nav-menu ul li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+header .desktop-header .container .nav-menu ul li:first-child {
+  border-bottom: 2px solid #6371f4;
+}
+header .desktop-header .container .nav-menu ul li p,
+header .desktop-header .container .nav-menu ul li a {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  color: #251f6e;
+  text-decoration: none;
+}
+header .desktop-header .container .nav-menu ul li i {
+  transform: translateY(-2px);
+  font-size: 12px;
+  color: #6371f4;
+}
+header .desktop-header .container .nav-menu .login-signup {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+header .desktop-header .container .nav-menu .login-signup a {
+  width: 72px;
+  height: 36px;
+  background: #6371f4;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+  text-decoration: none;
+}
+header .mobile-header {
+  display: none;
+}
+@media (max-width: 991.98px) {
+  header .desktop-header {
+    display: none;
+  }
+  header .mobile-header {
+    display: block;
+    padding-bottom: 20px;
+  }
+  header .mobile-header .container {
+    max-width: calc(100vw - 32px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 14px 0;
+    position: relative;
+  }
+  header .mobile-header .container .logo img {
+    height: 64px;
+    width: auto;
+  }
+  header .mobile-header .container .login-signup {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  header .mobile-header .container .login-signup a {
+    width: 56px;
+    height: 26px;
+    background: #6371f4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Dongle";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  header .mobile-header .container svg {
+    cursor: pointer;
+  }
+  header .mobile-header .container .nav-menu {
+    display: none;
+    position: absolute;
+    left: -16px;
+    top: 112px;
+    height: calc(100vh - 112px);
+    width: 100vw;
+    z-index: 2;
+    background: linear-gradient(104.53deg, #edebf9 2.98%, rgba(255, 255, 255, 0.4) 101.73%);
+    -webkit-backdrop-filter: blur(8px);
+            backdrop-filter: blur(8px);
+    border-radius: 0px;
+    padding: 24px 16px;
+  }
+  header .mobile-header .container .nav-menu.open {
+    display: block;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 {
+    list-style: none;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li {
+    height: 52px;
+    width: 100%;
+    display: flex;
+    padding: 8px 0;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(99, 113, 244, 0.4);
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li:last-child {
+    border-bottom: none;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li a {
+    font-family: "Dongle";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #251f6e;
+    text-decoration: none;
+    cursor: pointer;
+    flex-grow: 1;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li i {
+    font-size: 12px;
+    color: #6371f4;
+    cursor: pointer;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li ul.sub-menu {
+    display: none;
+    width: 100%;
+    list-style: none;
+    padding-left: 24px;
+    padding-bottom: 18px;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li ul.sub-menu li a {
+    font-family: "Dongle";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #251f6e;
+    text-decoration: none;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li.open {
+    height: auto;
+  }
+  header .mobile-header .container .nav-menu ul#menu-header-1 > li.open ul.sub-menu {
+    display: block;
+  }
+}
+
+main.frontpage {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 72px;
+}
+@media (max-width: 991.98px) {
+  main.frontpage {
+    max-width: calc(100vw - 32px);
+  }
+}
+main.frontpage .jumbotron {
+  display: flex;
+  align-items: center;
+}
+main.frontpage .jumbotron .text-section {
+  width: 360px;
+  flex-shrink: 0;
+}
+main.frontpage .jumbotron .text-section h4 {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 80%;
+  color: #251f6e;
+}
+main.frontpage .jumbotron .text-section p {
+  margin-top: 16px;
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #848484;
+}
+main.frontpage .jumbotron .text-section ul {
+  margin-top: 16px;
+  list-style: none;
+}
+main.frontpage .jumbotron .text-section ul li {
+  padding-left: 26px;
+  position: relative;
+  font-family: "Dongle";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  color: #797979;
+}
+main.frontpage .jumbotron .text-section ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTUiIHZpZXdCb3g9IjAgMCAxNiAxNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGVsbGlwc2UgY3g9IjcuOTIxNDYiIGN5PSI3LjUiIHJ4PSI3LjQyMTQ2IiByeT0iNy41IiBmaWxsPSIjNjM3MUY0Ii8+Cjwvc3ZnPg==");
+}
+main.frontpage .jumbotron img {
+  width: 100%;
+  height: auto;
+  transform: translateX(-48px) translateY(70px) scale(1.1);
+}
+@media (max-width: 991.98px) {
+  main.frontpage .jumbotron {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  main.frontpage .jumbotron .text-section {
+    width: 100%;
+  }
+  main.frontpage .jumbotron .jumbotron-image {
+    margin: 0 -16px;
+    overflow: hidden;
+    padding: 28px 0;
+  }
+  main.frontpage .jumbotron .jumbotron-image img {
+    transform: scale(1.4);
+  }
+}
+main.frontpage .tools {
+  margin-top: 82px;
+}
+@media (max-width: 991.98px) {
+  main.frontpage .tools {
+    margin-top: 120px;
+  }
+}
+main.frontpage .tools .title {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+main.frontpage .tools .title h4 {
+  font-family: Dongle;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 80%;
+  color: #251f6e;
+  max-width: 72%;
+  margin: 0 auto;
+}
+@media (max-width: 991.98px) {
+  main.frontpage .tools .title h4 {
+    font-weight: 700;
+    font-size: 42px;
+  }
+}
+main.frontpage .tools .title p {
+  margin-top: 32px;
+  font-family: "Dongle";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #848484;
+}
+@media (max-width: 991.98px) {
+  main.frontpage .tools .title {
+    max-width: 100%;
+    text-align: start;
+  }
+  main.frontpage .tools .title h4 {
+    max-width: none;
+  }
+}
+main.frontpage .tools .grid {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 991.98px) {
+  main.frontpage .tools .grid {
+    justify-content: flex-start;
+    overflow-x: auto;
+    margin: 0 -16px;
+    padding: 0 16px;
+  }
+}
+main.frontpage .tools .grid .grid-item {
+  width: 312px;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  flex-shrink: 0;
+}
+main.frontpage .tools .grid .grid-item.active {
+  border: 4px solid #6371f4;
+  border-radius: 24px;
+}
+main.frontpage .tools .grid .grid-item img {
+  height: 172px;
+}
+main.frontpage .tools .grid .grid-item h6 {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 60.8%;
+  color: #251f6e;
+  text-align: center;
+}
+main.frontpage .tools .grid .grid-item p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #474747;
+}
+
+footer {
+  background: #000000;
+}
+footer .container {
+  padding: 48px 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+@media (max-width: 991.98px) {
+  footer .container {
+    padding: 24px 16px;
+    width: 100%;
+    gap: 24px;
+  }
+}
+footer .container .footer-menu-grid {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-menu-grid {
+    order: 1;
+  }
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-menu-grid {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  footer .container .footer-menu-grid .footer-menu {
+    width: 100%;
+  }
+}
+footer .container .footer-menu-grid .footer-menu .menu-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-menu-grid .footer-menu .menu-title {
+    margin-bottom: 12px;
+    cursor: pointer;
+  }
+}
+footer .container .footer-menu-grid .footer-menu .menu-title h4 {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 102.2%;
+  color: #8a94f7;
+}
+footer .container .footer-menu-grid .footer-menu .menu-title i {
+  color: #6371f4;
+  transform: translateY(-4px);
+  display: none;
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-menu-grid .footer-menu .menu-title i {
+    display: inline;
+  }
+}
+footer .container .footer-menu-grid .footer-menu ul.footer-menu-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  list-style: none;
+}
+footer .container .footer-menu-grid .footer-menu ul.footer-menu-menu li p,
+footer .container .footer-menu-grid .footer-menu ul.footer-menu-menu li a {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 102.2%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-menu-grid .footer-menu ul.footer-menu-menu {
+    display: none;
+    padding-left: 24px;
+    padding-bottom: 24px;
+  }
+  footer .container .footer-menu-grid .footer-menu ul.footer-menu-menu.open {
+    display: block;
+  }
+}
+footer .container .footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  color: #8a94f7;
+  font-size: 24px;
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-social {
+    order: 3;
+  }
+}
+footer .container .risk {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+@media (max-width: 991.98px) {
+  footer .container .risk {
+    order: 2;
+  }
+}
+footer .container .footer-extra-menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-extra-menu {
+    order: 4;
+  }
+}
+@media (max-width: 991.98px) {
+  footer .container .footer-extra-menu {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+footer .container .footer-extra-menu a {
+  font-family: "Dongle";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 102.2%;
+  /* identical to box height, or 25px */
+  text-transform: capitalize;
+  color: #8a94f7;
+}
+/*# sourceMappingURL=styles-all.css.map */

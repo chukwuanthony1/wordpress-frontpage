@@ -1,0 +1,26 @@
+# Don’t ignore plugins dir, but ignore everything inside
+plugins
+plugins/index.php
+plugins/hello.php
+# Don’t ignore these plugins
+wp-admin
+!/wp-content/themes
+!/wp-content/themes/index.php
+/wp-content/themes/twentytwentytwo
+/wp-content/themes/twentyseventeen
+wp-content/themes/anthony-chukwu/node_modules
+wp-includes
+
+
+
+.htaccess
+.idea
+.vscode
+.history
+.DS_Store
+node_modules
+package-lock.json
+## Plugin-specific files:
+
+
+

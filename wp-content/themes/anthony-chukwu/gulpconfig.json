@@ -1,0 +1,23 @@
+{
+  "paths" : {
+    "js": "./assets/js",
+    "css": "./assets/css"
+  },
+  "files_styles": [
+    {
+      "name" : "all",
+      "scss": "./src/scss/styles-all.scss",
+      "css": [
+      ]
+    }
+  ],
+  "files_scripts": [
+    {
+      "name" : "script",
+      "files": "./src/js/script.js",
+      "css": [
+      ]
+    }
+  ]
+}
+
